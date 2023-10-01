@@ -1,0 +1,39 @@
+/* comment*/
+
+/* import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+html{
+    /* targets whole area */
+    font-family: "Poppins", sans-serif;
+    /*good practice to put sans serif as a back-up because all webpages have it */
+    box-sizing: border-box; /* adds border */
+    padding-left: 5%;
+}
+
+h1{
+    font-size: 3em; /* em means it's responsive so will change size */
+    font-weight: bold;
+    color: #F24299;
+    text-align: centre;
+}
+
+#skills-list{ /* # because it's an ID in the html file */
+    list-style: circle;
+    color: blue;
+
+}
+
+.top-skill{
+    color:#F24299;
+    text-shadow: rgb(176, 21, 158);
+}
+
+body{
+    background-color: lightblue;
+    /* sets a default backgroud colour so if image doesn't load there's still a colour
+    hierarchy */
+    background-image: linear-gradient(62deg, lightblue 0%, lightpink 100%) 
+    /* creates a gradient */
+}

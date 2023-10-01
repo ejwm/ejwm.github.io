@@ -1,7 +1,56 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>ejwm</h1>
-<p>Is this working?</p>
-</body>
+<html lang="en">
+    <head>
+        <title>CFG Portfolio</title>
+
+        <!-- Relative link to our style sheet in the sam folder-->
+        <link rel="stylesheet" href="style.css">
+        <!--Alt is to use full path: C://...-->
+    </head>
+    <body>
+        <!--tag that tells website there's a button going into it-->
+        <button id = "dark-mode-button" onClick="darkMode()">
+            Dark Mode
+        </button>
+
+        <!-- comment -->
+        <header>
+            <h1><u> My CFG Portfolio</u></h1>
+            <h2> About Me </h2>
+            <span id=""about-description> My name is Eira and I am a PhD student</span> 
+        </header>
+
+        <div id="skills-list">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Python</li>
+            </ul>
+        </div>
+
+        <div id="All Projects">
+            <h2>My Projects</h2>
+            <div id="Project 1">
+                <h3> Project 1</h3>
+                <p>This is where I tell you about my project</p>
+            </div>
+            <div id="Project 2">
+                <h3> Project 2</h3>
+                <p>This is where I tell you about my project</p>
+            </div>
+            <div id="Project 3">
+                <h3> Project 3</h3>
+                <p>This is where I tell you about my project</p>
+            </div>
+        </div>
+    
+    <footer>
+        <h2>Work with me</h2>
+        <p>Phone <a href="#">+1234 5678</a></p>
+    </footer>
+
+    <script src="script.js"></script> <!-- links to javascript file-->
+
+    </body>
 </html>
