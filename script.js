@@ -35,9 +35,14 @@ function comfortLevel(html, css, js) {
 
 comfortLevel(9,7,3);
 
-function darkMode() {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-    document.body.style.backgroundImage = "none";
-    document.getElementById("#").style.color = "white";
+//function darkMode() {
+//    document.body.style.backgroundColor = "black";
+//    document.body.style.color = "white";
+//    document.body.style.backgroundImage = "none";
+//    document.getElementById("#").style.color = "white";
+//}
+
+function darkMode(){
+    var element = document.body;
+    element.classList.toggle("dark-mode")
 }
